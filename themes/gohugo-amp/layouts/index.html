@@ -1,5 +1,10 @@
 {{ partial "structure/head" . }}
 
+
+
+
+<h3>Banner</h3>
+{{ partial "banner" . }}
 <main>
     {{ range .Data.Pages }}
         {{ if eq .Params.index true }}
