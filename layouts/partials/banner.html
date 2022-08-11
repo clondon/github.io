@@ -1,14 +1,19 @@
-<div class="my_banner">
-  <h1>Hello again!!!</h1>
+
+<div class="my_banner_parent_grid">
+<amp-img 
+    alt="{{ .Title }}"
+    src="{{ resources.Get "office_space.jpg"}}"
+    width="990"
+    height="500"
+    figcaption="Hello"
+    layout="responsive">
+  </amp-img>
+
+  <div class="my_banner_text centered">
+  <h1>{{ .Title }}</h1>
+  <h2>The web for small businesses</h2>
 </div>
-<amp-img
-  alt="A view of the sea"
-  src="limehouselizzy.png"
-  width="900"
-  height="636"
-  figcaption="Hello"
-  layout="responsive">
-</amp-img>
+</div>
 
 
     

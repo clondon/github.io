@@ -5,17 +5,20 @@ body  {
     margin: 2rem;
     color: rgb(21, 21, 21);
 }
-.amp-img {
 
-    display: grid;
-    position: relative;
+
+.my_banner_parent_grid {
+    
+    position: relative; 
 }
 
-.my_banner {
-    display: grid;
-    grid-template-columns: repeat(2,1fr);
+.my_banner_text {
+   color: white;
+}
+
+.centered {
     position: absolute;
-    text-align: center;
-    z-index: 200;
-    color: white;
-}
+    top: 50%;
+    left: 50%;
+    transform: translate(-50%, -50%);
+  }
